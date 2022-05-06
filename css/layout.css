@@ -178,9 +178,11 @@ h6 {
 .samd {
 }
 
-div.row:nth-child(2) > div:nth-child(1) {
+div.row:nth-child(2),
+.col-lg-4{
   position: sticky;
-  top: 10px;
-  z-index: 99;
-  background: white;
+  top: 0px;
+  z-index: 2;
+  background:white;
 }
+
