@@ -1,0 +1,186 @@
+@charset "utf-8";
+.body {
+    color: rgba(0,0,0,1.00);
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+    background-color: rgba(255,255,255,0.00);
+	background-attachment: scroll;
+}
+
+.over:post-img {
+	
+}
+
+.over-t { 
+	width: 0px;
+	height: 223px;
+	background: rgba(255,255,255,0.7);		
+	position:absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow:hidden;
+	
+}
+.over-t h2 {
+	color: white;
+	font-size: 0,5em
+}
+h1 {
+    color: black;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17em;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+h2 {
+    color: rgba(121,121,121,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.2em;
+}
+
+h4 {
+    color: rgba(0,0,0,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+
+h6 {
+    color: rgba(0,0,0,1.00);
+    font-family: monospace, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.SAMD {
+    text-align: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(0,0,0,1.00);
+    font-size: small;
+    margin-left: 7.5px;
+}
+
+.container.images {
+    margin-bottom: 4em;
+}
+.img-fluid {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-top: 30px;
+}
+.p  {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-size: small;
+}
+.article {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+.jumbotron {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-top: 30px;
+    font-size: small;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+
+.yes {
+    color: rgba(52,52,52,1.00);
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    background-color: rgba(233,236,239,1.00);
+}
+
+
+
+
+
+.logo {
+    padding-right: 7.5px;
+}
+
+.navbar {
+    font-size: small;
+    background-clip: padding-box;
+    left: 0px;
+    float: none;
+    text-align: left;
+    text-shadow: 0 0px;
+    display: table-row;
+}
+.name {
+    margin-left: 7.5px;
+}
+
+.indextext h1 {
+    color: black;
+    font-size: 30px;
+    border: 6px solid black;
+   
+}
+
+.show-hover {
+	position: absolute;
+	text-align: center;  
+}
+	
+.maxtip {
+    line-height: 220px;
+    color: white;
+    font-size: 30px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.maxtipblack {
+    line-height: 220px;
+    color: black;
+    font-size: 30px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+	word-break: break-all;
+}
+
+.vertikal-flex {
+   width: 100%;
+   height: 30vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.SAMDSTART {
+	text-align: center;
+    line-height: 1000px;
+    color: white;
+    font-size: 120px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.fluid-image {
+}
+.col-sm7 {
+}
+.center {
+}
+.center-text {
+}
+.divsamd {
+}
+.samd {
+}
+
+div.row:nth-child(2) > div:nth-child(1) {
+  position: sticky;
+  top: 10px;
+  z-index: 99;
+  background: white;
+}
